@@ -4,7 +4,7 @@ Feature: Crear y recuperar una mascota en Swagger Petstore
     * url 'https://petstore.swagger.io/v2'
   Scenario: Crear una mascota y luego recuperarla
  # Paso 1: Crear mascota con POST
-    #solo para ver cambios en el git
+    #solo para ver cambios en el git y yml
     Given path 'pet'
     And request
  """
