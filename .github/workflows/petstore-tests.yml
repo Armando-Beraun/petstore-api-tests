@@ -11,7 +11,7 @@ jobs:
 
   steps:
   -name: Clonar el código
-   uses: actions/checkout@v3
+uses: actions/checkout@v3
 
   -name: Configurar Java
    uses: actions/setup-java@v3
