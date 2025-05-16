@@ -10,8 +10,8 @@ jobs:
     runs-on: ubuntu-latest
 
   steps:
-  - name: Clonar el código
-    uses: actions/checkout@v3
+  - name:Clonar el código
+    uses:actions/checkout@v3
 
   - name: Configurar Java
     uses: actions/setup-java@v3
