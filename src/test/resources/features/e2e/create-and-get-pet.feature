@@ -11,19 +11,19 @@ Feature: Crear y recuperar una mascota en Swagger Petstore
  """
  {
  "id": 2,
- "name": "Firulais",
+ "name": "Snoopy",
  "photoUrls": ["https://ejemplo.com/foto.jpg"],
  "status": "available"
  }
  """
     When method POST
     Then status 200
-    And match response.name == 'Firulais'
+    And match response.name == 'Snoopy'
  # Guardar el ID
     * def petId = response.id
  # Paso 2: Recuperar con GET
     Given path 'pet', petId
     When method GET
     Then status 200
-    And match response.name == 'Firulais'
+    And match response.name == 'Snoopy'
     And match response.id == petId
