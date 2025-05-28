@@ -11,7 +11,7 @@ Feature: Crear y recuperar una mascota en Swagger Petstore
  """
  {
  "id": 2,
- "name": "IKKI",
+ "name": "Firulais",
  "photoUrls": ["https://ejemplo.com/foto.jpg"],
  "status": "available"
  }
