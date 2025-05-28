@@ -7,7 +7,7 @@ Feature: Obtener una mascota por Id desde Swagger Petstore
 
       Given path 'pet', 1
       When method GET
-      * print "el valor de status es:.....", responseStatus
+      * print "el valor de status es::.....", responseStatus
       Then status 200
       #validacion de campos
       And match response.id ==1
