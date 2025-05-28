@@ -20,7 +20,7 @@ jobs:
           distribution: 'temurin'
 
       - name:  Ejecutar pruebas Karate
-        run: mvn test -Dtest=PetTestRunner -Dkarate.options="--tags ~@e2e"
+        run: mvn test -Dtest=PetTestRunner -Dkarate.options="--tags @e2e"
   ui-tests:
     name: Ejecutar pruebas de UI con Playwright
     runs-on: ubuntu-latest
